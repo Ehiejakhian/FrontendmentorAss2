@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!--TitleIcon-->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <!--GOOGLE FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    
+    <title>Frontend Mentor | Social links profile</title>
+    
+    <style>
+      /*GENERAL*/
+      * {
+        font-family: "Inter",sans-serif;
+        margin: 0;
+        line-height: 1.5em;
+      }
+      body {
+        color: white;
+        background: hsl(0, 0%, 8%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      /*PROFILE BOX*/
+      div.profilebox {
+        margin-top: 100px;
+        max-width: 400px;
+        margin: 20px;
+        background: hsl(0, 0%, 12%);
+        padding: 20px;
+        border-radius: 20px;
+      }
+      img {
+        display: block;
+        width: 90px;
+        height: 90px;
+        border-radius: 90px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
+      }
+      h1 {
+        text-align: center;
+      }
+      p.location {
+        font-size: ;
+        color: hsl(75, 94%, 57%);
+        text-align: center;
+        font-weight: 700;
+      }
+      p.normal {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+      }
+      div.links
+      a {
+        background: hsl(0, 0%, 20%);
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        display: block;
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+        border-radius: 10px;
+      }
+      a:hover, a:active {
+        color: hsl(0, 0%, 8%);
+        background: hsl(75, 94%, 57%);
+      }
+      
+      /*FOOTER*/
+      .attribution { 
+        font-size: 11px; text-align: center;
+      }
+      .attribution a { 
+        color: hsl(228, 45%, 44%); 
+      }
+    </style>
+
+  </head>
+  
+  <body>
+    <div class="profilebox">
+      <img src="avatar-jessica.jpeg" alt="jessicaRandall">
+      <h1>Jessica Randall</h1>
+      <p class="location">London, United Kingdom</p>
+      <p class="normal">"Front-end developer and avid reader."</p>
+      <div class="links">
+        <a href="#">GitHub</a>
+        <a href="#">Frontend Mentor</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+      </div>
+    </div>
+    <footer>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Ehi Ejakhian</a>.
+      </div>
+    </footer>
+  </body>
+</html>
